@@ -2,7 +2,6 @@
 
 1. Go to the directory where you have the PCP collections
 
-
 2. Execute the python script with the full location:
 
  $ /root/pcp-pwd.py
@@ -64,17 +63,26 @@
     
     All commands executed and outputs saved successfully.
 
-$ ls -l <HOSTNAME>/0011_0015-04_0345/
-total 14620
--rw-r--r-- 1 root root   106584 Mar  4 03:45 atop.txt
--rw-r--r-- 1 root root    31373 Mar  4 03:45 iostat.txt
--rw-r--r-- 1 root root     8697 Mar  4 03:45 load.txt
--rw-r--r-- 1 root root    37520 Mar  4 03:45 meminfo.txt
--rw-r--r-- 1 root root    18990 Mar  4 03:45 mpstat.txt
--rw-r--r-- 1 root root      408 Mar  4 03:45 numastat.txt
--rw-r--r-- 1 root root  4394116 Mar  4 03:46 ps.txt
--rw-r--r-- 1 root root     7992 Mar  4 03:45 runq.txt
--rw-r--r-- 1 root root 10317346 Mar  4 03:45 slabinfo.txt
--rw-r--r-- 1 root root    25079 Mar  4 03:45 vmstat.txt
+   $ ls -l <HOSTNAME>/0011_0015-04_0345/
+   total 14620
+   -rw-r--r-- 1 root root   106584 Mar  4 03:45 atop.txt
+   
+   -rw-r--r-- 1 root root    31373 Mar  4 03:45 iostat.txt
+   
+   -rw-r--r-- 1 root root     8697 Mar  4 03:45 load.txt
+   
+   -rw-r--r-- 1 root root    37520 Mar  4 03:45 meminfo.txt
+   
+   -rw-r--r-- 1 root root    18990 Mar  4 03:45 mpstat.txt
+   
+   -rw-r--r-- 1 root root      408 Mar  4 03:45 numastat.txt
+   
+   -rw-r--r-- 1 root root  4394116 Mar  4 03:46 ps.txt
+   
+   -rw-r--r-- 1 root root     7992 Mar  4 03:45 runq.txt
+   
+   -rw-r--r-- 1 root root 10317346 Mar  4 03:45 slabinfo.txt
+   
+   -rw-r--r-- 1 root root    25079 Mar  4 03:45 vmstat.txt
 
 
