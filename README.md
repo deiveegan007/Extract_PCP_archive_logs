@@ -64,7 +64,8 @@
     All commands executed and outputs saved successfully.
 
    $ ls -l <HOSTNAME>/0011_0015-04_0345/
-   total 14620
+  
+   
    -rw-r--r-- 1 root root   106584 Mar  4 03:45 atop.txt
    
    -rw-r--r-- 1 root root    31373 Mar  4 03:45 iostat.txt
