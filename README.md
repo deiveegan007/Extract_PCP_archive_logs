@@ -1,6 +1,7 @@
 **Extract the Performance Co-Pilot(PCP) logs - minimal OSWatcher logs**
 
 1. Go to the directory where you have the PCP collections
+
   [root@<HOSTNAME>]# ls
   20260116.meta.xz  20260117.meta.xz  20260119.5.xz     20260120.5.xz     20260121.5.xz        20260123.00.11.2.xz
   20260116.0.xz      20260117.0.xz     20260118.0.xz     20260119.6.xz     20260120.6.xz     20260121.6.xz        20260123.00.11.3
@@ -8,6 +9,7 @@
   20260116.2.xz      20260117.2.xz     20260118.meta.xz  20260119.meta.xz  20260120.meta.xz  20260121.meta.xz     20260123.00.11.meta
 
 2. Execute the python script with the full location:
+
 [root@<HOSTNAME>]# /root/pcp-pwd.py
 
     Available files in current directory:
