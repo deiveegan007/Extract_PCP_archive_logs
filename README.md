@@ -1,8 +1,10 @@
 **Extract the Performance Co-Pilot(PCP) logs - minimal OSWatcher logs**
 
-1. Go to the directory where you have the PCP collections
+1. Copy the python script and give execute permission
 
-2. Execute the python script with the full location:
+2.  Go to the directory where you have the PCP collections
+
+3. Execute the python script with the full location:
 
  $ /root/pcp-pwd.py
 
